@@ -1,0 +1,141 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFE4C4;
+}
+.tarjeta {
+  display: flex;
+  width: 390px;
+  height: 844px;
+  background-color: #FDF5E6;
+  border-radius: 25px;
+  flex-wrap: wrap;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 35%;
+  justify-content: center;
+  align-items: center;
+  background: rgb(245,143,69);
+  background: radial-gradient(circle, rgba(245,143,69,1) 4%, rgba(252,188,108,1) 100%);
+  border-radius: 25px;
+  margin: 20px;
+}
+.image {
+  display: flex;
+  width: 30%;
+  height: 35%;
+  border-radius: 25px;
+  overflow: hidden;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.information-name {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+.information-name p {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
+.information-location {
+  display: flex;
+  margin: 0px;
+}
+.information-location p {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+.cv {
+  display: flex;
+  width: 100%;
+  height: 65%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.area-expertise {
+  display: flex;
+  margin-left: 20px;
+}
+.area-expertise p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+.tecnology {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+.datamodelling {
+  display: flex;
+  justify-content: center;
+  background-color: #d1ccc5;
+  border-radius: 70px;
+  padding: 1px;
+  margin: 5px;
+  width: 40%;
+}
+.business {
+  display: flex;
+  background-color: #d1ccc5;
+  justify-content: center;
+  border-radius: 70px;
+  padding: 1px;
+  margin:5px;
+  width: 40%;
+}
+.project {
+  display: flex;
+  background-color: #d1ccc5;
+  justify-content: center;
+  border-radius: 70px;
+  padding: 1px;
+  margin: 5px;
+  width: 40%;
+}
+.education{
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+}
+.education p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+.university {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 25px;
+}
+.centercircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  background: rgb(245,143,69);
+  background: radial-gradient(circle, rgba(245,143,69,1) 4%, rgba(252,188,108,1) 100%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
